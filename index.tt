@@ -19,6 +19,7 @@
     <link href="styles/ranta.min.css?v=<#=version#>" rel="stylesheet" />
 </head>
 <body ng-app="app">
+
     <div class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
@@ -34,11 +35,8 @@
             </div>
         </div>
     </div>
-    <div class="container">
 
-        <div ui-view></div>
-
-    </div>
+    <div class="container" ui-view></div>
 
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
