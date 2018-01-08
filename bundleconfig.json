@@ -1,0 +1,9 @@
+[
+  {
+    "outputFileName": "scripts/ranta.js",
+    "inputFiles": [
+      "scripts/controllers/WelcomeController.js",
+      "scripts/services/FavoriteService.js"
+    ]
+  }
+]

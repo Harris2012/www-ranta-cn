@@ -1,0 +1,6 @@
+﻿<div class="link-group" ng-repeat="linkGroup in linkGroups">
+    <p class="link-title info">{{linkGroup.title}}</p>
+    <ul class="link-items">
+        <li ng-repeat="linkItem in linkGroup.items" class="link-item"><a href="{{linkItem.href}}" target="_blank">{{linkItem.text}}</a></li>
+    </ul>
+</div>

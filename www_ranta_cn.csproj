@@ -52,6 +52,14 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>index.html</LastGenOutput>
     </Content>
+    <Content Include="scripts\app.js" />
+    <Content Include="scripts\controllers\WelcomeController.js" />
+    <Content Include="scripts\ranta.js" />
+    <Content Include="scripts\ranta.min.js">
+      <DependentUpon>ranta.js</DependentUpon>
+    </Content>
+    <Content Include="scripts\route.js" />
+    <Content Include="scripts\views\view_welcome.html" />
     <Content Include="styles\ranta.css">
       <DependentUpon>ranta.less</DependentUpon>
     </Content>
@@ -61,6 +69,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -69,6 +78,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />

@@ -13,12 +13,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Ranta</title>
+    <title>Ranta</title>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="styles/ranta.min.css?v=<#=version#>" rel="stylesheet" />
 </head>
-<body>
+<body ng-app="app">
     <div class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
@@ -36,13 +36,21 @@
     </div>
     <div class="container">
 
-        <div class="jumbotron">
-            <p>理论是灰色的 生活之树常青</p>
-            <p>Theory is gray, and live is everygreen</p>
-        </div>
+        <div ui-view></div>
 
     </div>
+
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.4/angular.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.4/angular-resource.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+
+    <script src="scripts/ranta.min.js?v=<#=version#>"></script>
+    <script src="scripts/route.js?v=<#=version#>"></script>
+    <script src="scripts/app.js?v=<#=version#>"></script>
+    <script>
+        window.version = <#=version#>;
+    </script>
 </body>
 </html>
