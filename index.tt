@@ -47,8 +47,6 @@
     <script src="https://cdn.bootcss.com/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
 
     <script src="scripts/ranta.min.js?v=<#=version#>"></script>
-    <script src="scripts/route.js?v=<#=version#>"></script>
-    <script src="scripts/app.js?v=<#=version#>"></script>
     <script>
         window.version = <#=version#>;
     </script>

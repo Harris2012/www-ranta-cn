@@ -1,9 +1,12 @@
 [
   {
+    "minify": {"renameLocals": false, "enabled": true},
     "outputFileName": "scripts/ranta.js",
     "inputFiles": [
       "scripts/controllers/WelcomeController.js",
-      "scripts/services/FavoriteService.js"
+      "scripts/services/FavoriteService.js",
+      "scripts/route.js",
+      "scripts/app.js"
     ]
   }
 ]
