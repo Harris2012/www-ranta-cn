@@ -5,6 +5,7 @@
     "inputFiles": [
       "scripts/controllers/WelcomeController.js",
       "scripts/services/FavoriteService.js",
+      "scripts/services/PopularService.js",
       "scripts/route.js",
       "scripts/app.js"
     ]

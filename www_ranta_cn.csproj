@@ -59,6 +59,7 @@
       <DependentUpon>ranta.js</DependentUpon>
     </Content>
     <Content Include="scripts\route.js" />
+    <Content Include="scripts\services\PopularService.js" />
     <Content Include="scripts\services\FavoriteService.js" />
     <Content Include="scripts\views\view_welcome.html" />
     <Content Include="styles\ranta.css">
@@ -76,6 +77,7 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <Content Include="data\favorites.json" />
+    <Content Include="data\populars.json" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

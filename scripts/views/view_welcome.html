@@ -1,6 +1,15 @@
-﻿<div class="link-group" ng-repeat="linkGroup in linkGroups">
+﻿<p>我们那些信仰，要忘记多难</p>
+
+<div class="popular-group">
+    <ul class="popular-items">
+        <li ng-repeat="popularItem in popularItems" class="popular-item"><a href="{{popularItem.href}}" target="_blank">{{popularItem.text}}</a></li>
+    </ul>
+</div>
+
+<div class="link-group" ng-repeat="linkGroup in linkGroups">
     <p class="link-title info">{{linkGroup.title}}</p>
     <ul class="link-items">
         <li ng-repeat="linkItem in linkGroup.items" class="link-item"><a href="{{linkItem.href}}" target="_blank">{{linkItem.text}}</a></li>
     </ul>
 </div>
+
