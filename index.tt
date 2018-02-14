@@ -17,6 +17,8 @@
     <link href="https://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="styles/ranta.min.css?v=<#=version#>" rel="stylesheet" />
+
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
 </head>
 <body ng-app="app">
 
