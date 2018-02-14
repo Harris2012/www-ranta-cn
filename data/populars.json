@@ -1,4 +1,6 @@
-﻿[
-    { "href": "https://github.com/", "text": "GitHub" },
-    { "href": "https://www.baidu.com/", "text": "百度一下" }
+[
+  {
+    "text": "GitHub",
+    "href": "https://github.com"
+  }
 ]

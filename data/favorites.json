@@ -19,14 +19,6 @@
         "href": "http://news.sina.com.cn"
       },
       {
-        "text": "Node Weekly",
-        "href": "http://nodeweekly.com"
-      },
-      {
-        "text": "Responsive Design Newsletter",
-        "href": "http://responsivedesignweekly.com"
-      },
-      {
         "text": "新浪科技",
         "href": "http://tech.sina.com.cn"
       },
@@ -73,6 +65,64 @@
     ]
   },
   {
+    "title": "文学",
+    "items": [
+      {
+        "text": "片刻网",
+        "href": "http://pianke.me"
+      },
+      {
+        "text": "读者网",
+        "href": "http://www.duzhe.com"
+      },
+      {
+        "text": "青年文摘",
+        "href": "http://www.qnwz.cn"
+      },
+      {
+        "text": "意林集团",
+        "href": "http://www.yilin.net.cn"
+      }
+    ]
+  },
+  {
+    "title": "学习",
+    "items": [
+      {
+        "text": "网易公开课",
+        "href": "http://open.163.com"
+      },
+      {
+        "text": "网易云课堂",
+        "href": "http://study.163.com"
+      },
+      {
+        "text": "中国大学MOOC(慕课)",
+        "href": "http://www.icourse163.org"
+      },
+      {
+        "text": "慕课网",
+        "href": "http://www.imooc.com"
+      },
+      {
+        "text": "极客学院",
+        "href": "http://www.jikexueyuan.com"
+      },
+      {
+        "text": "咪咕学堂",
+        "href": "http://www.miguxue.com"
+      },
+      {
+        "text": "MOOC中国",
+        "href": "http://www.mooc.cn"
+      },
+      {
+        "text": "壹心理",
+        "href": "http://www.xinli001.com"
+      }
+    ]
+  },
+  {
     "title": "官方网站",
     "items": [
       {
@@ -86,10 +136,6 @@
       {
         "text": "Apache",
         "href": "http://archive.apache.org"
-      },
-      {
-        "text": "百度百科",
-        "href": "http://baike.baidu.com"
       },
       {
         "text": "Browserhacks",
@@ -126,10 +172,6 @@
       {
         "text": "DataTables",
         "href": "http://datatables.net"
-      },
-      {
-        "text": "百度开发者中心",
-        "href": "http://developer.baidu.com"
       },
       {
         "text": "七牛开发者中心",
@@ -228,10 +270,6 @@
         "href": "http://mahapps.com"
       },
       {
-        "text": "百度地图",
-        "href": "http://map.baidu.com"
-      },
-      {
         "text": "Mob官网",
         "href": "http://mob.com"
       },
@@ -240,36 +278,12 @@
         "href": "http://mockjs.com"
       },
       {
-        "text": "微信公众平台",
-        "href": "http://mp.weixin.qq.com"
-      },
-      {
         "text": "MSDN, 我告诉你",
         "href": "http://msdn.itellyou.cn"
       },
       {
-        "text": "百度音乐",
-        "href": "http://music.baidu.com"
-      },
-      {
-        "text": "搜狗音乐",
-        "href": "http://music.soso.com"
-      },
-      {
-        "text": "音乐人先锋榜",
-        "href": "http://music.weibo.com"
-      },
-      {
-        "text": "百度用户体验中心",
-        "href": "http://mux.baidu.com"
-      },
-      {
         "text": "Node.js",
         "href": "http://nodejs.org"
-      },
-      {
-        "text": "网易公开课",
-        "href": "http://open.163.com"
       },
       {
         "text": "BootCDN",
@@ -282,10 +296,6 @@
       {
         "text": "开放语义平台",
         "href": "http://osp.voicecloud.cn"
-      },
-      {
-        "text": "片刻网",
-        "href": "http://pianke.me"
       },
       {
         "text": "Placeholder.com",
@@ -336,10 +346,6 @@
         "href": "http://vuejs.org"
       },
       {
-        "text": "腾讯开放平台",
-        "href": "http://wiki.open.qq.com"
-      },
-      {
         "text": "WordPress",
         "href": "http://wordpress.org"
       },
@@ -370,10 +376,6 @@
       {
         "text": "DCloud",
         "href": "http://www.dcloud.io"
-      },
-      {
-        "text": "读者网",
-        "href": "http://www.duzhe.com"
       },
       {
         "text": "象棋巫师",
@@ -442,10 +444,6 @@
       {
         "text": "Microsoft Docs",
         "href": "https://docs.microsoft.com"
-      },
-      {
-        "text": "GitHub",
-        "href": "https://github.com"
       },
       {
         "text": "MSDN",
@@ -529,14 +527,6 @@
         "href": "http://huaban.com"
       },
       {
-        "text": "阿里巴巴矢量图标库",
-        "href": "http://iconfont.cn"
-      },
-      {
-        "text": "百度经验",
-        "href": "http://jingyan.baidu.com"
-      },
-      {
         "text": "POCO.CN",
         "href": "http://maker.poco.cn"
       },
@@ -555,10 +545,6 @@
       {
         "text": "站长素材",
         "href": "http://sc.chinaz.com"
-      },
-      {
-        "text": "网易云课堂",
-        "href": "http://study.163.com"
       },
       {
         "text": "three.js",
@@ -637,28 +623,12 @@
         "href": "http://www.i7758.com"
       },
       {
-        "text": "阿里巴巴矢量图标库",
-        "href": "http://www.iconfont.cn"
-      },
-      {
-        "text": "中国大学MOOC(慕课)",
-        "href": "http://www.icourse163.org"
-      },
-      {
         "text": "爱课程",
         "href": "http://www.icourses.cn"
       },
       {
-        "text": "慕课网",
-        "href": "http://www.imooc.com"
-      },
-      {
         "text": "图灵社区",
         "href": "http://www.ituring.com.cn"
-      },
-      {
-        "text": "极客学院",
-        "href": "http://www.jikexueyuan.com"
       },
       {
         "text": "jQueryfuns",
@@ -669,20 +639,12 @@
         "href": "http://www.lz13.cn"
       },
       {
-        "text": "咪咕学堂",
-        "href": "http://www.miguxue.com"
-      },
-      {
         "text": "模板王",
         "href": "http://www.mobanwang.com"
       },
       {
         "text": "Mobile Patterns",
         "href": "http://www.mobile-patterns.com"
-      },
-      {
-        "text": "MOOC中国",
-        "href": "http://www.mooc.cn"
       },
       {
         "text": "Mtime时光网",
@@ -707,10 +669,6 @@
       {
         "text": "前端美",
         "href": "http://www.qianduanmei.com"
-      },
-      {
-        "text": "青年文摘",
-        "href": "http://www.qnwz.cn"
       },
       {
         "text": "CAD教程网",
@@ -759,10 +717,6 @@
       {
         "text": "设计前沿",
         "href": "http://www.wzsky.net"
-      },
-      {
-        "text": "意林集团",
-        "href": "http://www.yilin.net.cn"
       },
       {
         "text": "音悦Tai",
@@ -818,20 +772,12 @@
         "href": "http://caibaojian.com"
       },
       {
-        "text": "腾讯CDC",
-        "href": "http://cdc.tencent.com"
-      },
-      {
         "text": "CodeGo.net",
         "href": "http://codego.net"
       },
       {
         "text": "Div.IO",
         "href": "http://div.io"
-      },
-      {
-        "text": "百度EFE",
-        "href": "http://efe.baidu.com"
       },
       {
         "text": "搜车大无线团队博客",
@@ -854,10 +800,6 @@
         "href": "http://iissnan.com"
       },
       {
-        "text": "Web前端 腾讯IMWeb 团队社区",
-        "href": "http://imweb.io"
-      },
-      {
         "text": "囧克斯",
         "href": "http://jiongks.name"
       },
@@ -872,10 +814,6 @@
       {
         "text": "CSDN博客",
         "href": "http://m.blog.csdn.net"
-      },
-      {
-        "text": "腾讯MXD移动互联网设计中心",
-        "href": "http://mxd.tencent.com"
       },
       {
         "text": "OurJS",
@@ -894,28 +832,12 @@
         "href": "http://sofi.sh"
       },
       {
-        "text": "腾讯游戏官方设计团队",
-        "href": "http://tgideas.qq.com"
-      },
-      {
         "text": "开发者头条",
         "href": "http://toutiao.io"
       },
       {
-        "text": "阿里妈妈MUX",
-        "href": "http://ued.alimama.com"
-      },
-      {
-        "text": "百度用户体验中心",
-        "href": "http://ued.baidu.com"
-      },
-      {
         "text": "携程设计委员会",
         "href": "http://ued.ctrip.com"
-      },
-      {
-        "text": "腾讯网UED",
-        "href": "http://ued.qq.com"
       },
       {
         "text": "点点网络",
@@ -928,10 +850,6 @@
       {
         "text": "51CTO.COM",
         "href": "http://www.51cto.com"
-      },
-      {
-        "text": "阿里巴巴国际UED团队",
-        "href": "http://www.aliued.com"
       },
       {
         "text": "标点符",
@@ -996,15 +914,77 @@
     ]
   },
   {
-    "title": "在线学习",
+    "title": "阿里",
     "items": [
       {
-        "text": "壹心理",
-        "href": "http://www.xinli001.com"
+        "text": "阿里巴巴矢量图标库",
+        "href": "http://iconfont.cn"
       },
       {
-        "text": "学堂在线",
-        "href": "http://www.xuetangx.com"
+        "text": "阿里妈妈MUX",
+        "href": "http://ued.alimama.com"
+      },
+      {
+        "text": "阿里巴巴国际UED团队",
+        "href": "http://www.aliued.com"
+      },
+      {
+        "text": "阿里巴巴矢量图标库",
+        "href": "http://www.iconfont.cn"
+      }
+    ]
+  },
+  {
+    "title": "百度",
+    "items": [
+      {
+        "text": "百度开发者中心",
+        "href": "http://developer.baidu.com"
+      },
+      {
+        "text": "百度EFE",
+        "href": "http://efe.baidu.com"
+      },
+      {
+        "text": "百度经验",
+        "href": "http://jingyan.baidu.com"
+      },
+      {
+        "text": "百度用户体验中心",
+        "href": "http://mux.baidu.com"
+      }
+    ]
+  },
+  {
+    "title": "腾讯",
+    "items": [
+      {
+        "text": "腾讯CDC",
+        "href": "http://cdc.tencent.com"
+      },
+      {
+        "text": "Web前端 腾讯IMWeb 团队社区",
+        "href": "http://imweb.io"
+      },
+      {
+        "text": "微信公众平台",
+        "href": "http://mp.weixin.qq.com"
+      },
+      {
+        "text": "腾讯MXD移动互联网设计中心",
+        "href": "http://mxd.tencent.com"
+      },
+      {
+        "text": "腾讯游戏官方设计团队",
+        "href": "http://tgideas.qq.com"
+      },
+      {
+        "text": "腾讯网UED",
+        "href": "http://ued.qq.com"
+      },
+      {
+        "text": "腾讯开放平台",
+        "href": "http://wiki.open.qq.com"
       }
     ]
   }

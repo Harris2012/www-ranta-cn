@@ -61,7 +61,6 @@
     <Content Include="scripts\route.js" />
     <Content Include="scripts\services\PopularService.js" />
     <Content Include="scripts\services\FavoriteService.js" />
-    <Content Include="scripts\views\view_header.html" />
     <Content Include="scripts\views\view_welcome.html" />
     <Content Include="styles\ranta.css">
       <DependentUpon>ranta.less</DependentUpon>

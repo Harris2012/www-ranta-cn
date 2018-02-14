@@ -20,7 +20,18 @@
 </head>
 <body ng-app="app">
 
-    <div ng-include="'scripts/views/view_header.html?v=<#=version#>'"></div>
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Ranta 在线收藏夹</a>
+            </div>
+            <form action="https://www.baidu.com/s" class="navbar-form">
+                <div class="form-group">
+                    <input type="text" name="wd" placeholder="在百度中搜索" baidusug="1" class="form-control">
+                </div>
+            </form>
+        </div>
+    </div>
 
     <div class="container" ui-view></div>
 
@@ -34,5 +45,7 @@
     <script>
         window.version = <#=version#>;
     </script>
+
+    <script charset="gbk" src="https://www.baidu.com/js/opensug.js"></script>
 </body>
 </html>

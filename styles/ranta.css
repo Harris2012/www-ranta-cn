@@ -18,6 +18,12 @@ ul {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+.navbar-form {
+  padding: 10px 15px;
+}
+.bdSug_app {
+  display: none;
+}
 /* 导航栏 end */
 /* 主体 begin */
 .link-group {
