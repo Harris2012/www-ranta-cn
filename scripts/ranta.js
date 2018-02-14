@@ -14,7 +14,7 @@ function WelcomeController($scope, FavoriteService, PopularService) {
 function FavoriteService($resource, $q) {
 
     var resource = $resource('data/favorites.json', {}, {
-        getData: { method: 'GET', url: 'data/favorites.json', isArray: true }
+        getData: { method: 'GET', url: 'data/favorites.json?v=' + window.version, isArray: true }
     });
 
     return {
@@ -33,7 +33,7 @@ function FavoriteService($resource, $q) {
 function PopularService($resource, $q) {
 
     var resource = $resource('data/populars.json', {}, {
-        getData: { method: 'GET', url: 'data/populars.json', isArray: true }
+        getData: { method: 'GET', url: 'data/populars.json?v='+window.version, isArray: true }
     });
 
     return {

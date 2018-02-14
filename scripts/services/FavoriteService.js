@@ -1,7 +1,7 @@
 ﻿function FavoriteService($resource, $q) {
 
     var resource = $resource('data/favorites.json', {}, {
-        getData: { method: 'GET', url: 'data/favorites.json', isArray: true }
+        getData: { method: 'GET', url: 'data/favorites.json?v=' + window.version, isArray: true }
     });
 
     return {

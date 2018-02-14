@@ -20,7 +20,7 @@
 </head>
 <body ng-app="app">
 
-    <div ng-include="'scripts/views/view_header.html'"></div>
+    <div ng-include="'scripts/views/view_header.html?v=<#=version#>'"></div>
 
     <div class="container" ui-view></div>
 
