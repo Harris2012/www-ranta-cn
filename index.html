@@ -4,28 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ranta</title>
+    <title>Ranta 在线收藏夹</title>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="styles/ranta.min.css?v=20180108115656" rel="stylesheet" />
+    <link href="styles/ranta.min.css?v=20180214141308" rel="stylesheet" />
 </head>
 <body ng-app="app">
 
-    <div class="navbar navbar-default navbar-static-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/">Ranta 中文网</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav"></ul>
-            </div>
-        </div>
-    </div>
+    <div ng-include="'scripts/views/view_header.html'"></div>
 
     <div class="container" ui-view></div>
 
@@ -35,9 +21,9 @@
     <script src="https://cdn.bootcss.com/angular.js/1.6.4/angular-resource.min.js"></script>
     <script src="https://cdn.bootcss.com/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
 
-    <script src="scripts/ranta.min.js?v=20180108115656"></script>
+    <script src="scripts/ranta.min.js?v=20180214141308"></script>
     <script>
-        window.version = 20180108115656;
+        window.version = 20180214141308;
     </script>
 </body>
 </html>
