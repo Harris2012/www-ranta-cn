@@ -29,7 +29,7 @@
             </div>
             <form action="https://www.baidu.com/s" class="navbar-form">
                 <div class="form-group">
-                    <input type="text" name="wd" placeholder="在百度中搜索" baidusug="1" class="form-control">
+                    <input type="text" name="wd" placeholder="在百度中搜索" baidusug="1" class="form-control" />
                 </div>
             </form>
         </div>
